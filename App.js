@@ -15,8 +15,8 @@ class App extends Component{
     super(props);
     this.state = {
       textoFrase: '',
-      img: require('./src/Img/biscoito.png'),
-      fundo: require('./src/Img/home.png'),
+      img: require('./src/img/biscoito.png'),
+      fundo: require('./src/img/home.png'),
       frasebtn:'Quebrar Biscoito',
     };
 
@@ -56,7 +56,7 @@ class App extends Component{
 
     this.setState({
       textoFrase: ' " ' + this.frases[numeroAleatorio] + ' " ',
-      img: require('./src/Img/biscoitoAberto.png'),
+      img: require('./src/img/biscoitoAberto.png'),
       frasebtn:'Nova frase',
     });
   
